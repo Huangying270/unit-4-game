@@ -1,9 +1,19 @@
 $(document).ready(function(){
 
-    var Random=Math.floor(Math.random()*102+19);
+    var Random = Math.floor(Math.random() * 102 + 19);
     console.log(Random);
 
     $("#matchNumber").text(Random);
+
+    var yourScore = 0;
+    var wins = 0;
+    var losses = 0;
+
+    var red = Math.floor(Math.random() * 12 + 1);
+    var blue = Math.floor(Math.random() * 12 + 1);
+    var purple = Math.floor(Math.random() * 12 + 1);
+    var green = Math.floor(Math.random() * 12 + 1);
+    console.log(red);
 
 
 })
