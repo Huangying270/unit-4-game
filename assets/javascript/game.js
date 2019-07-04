@@ -19,6 +19,16 @@ $(document).ready(function(){
         yourScore = yourScore + redNumber;
         console.log(yourScore);
         $("#crystalScore").text(yourScore);
+
+        if (yourScore == Random) {
+            alert("You Win!");
+            wins++;
+            $("#wins").text(wins);
+        } else if (yourScore > Random) {
+            alert("You Lose!");
+            losses++;
+            $("#losses").text(losses);
+        }
     })
 
     $(".blue").on("click", function(){
