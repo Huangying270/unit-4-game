@@ -18,6 +18,7 @@ $(document).ready(function(){
     $(".red").on("click", function(){
         yourScore = yourScore + redNumber;
         console.log(yourScore);
+        $("#crystalScore").text(yourScore);
     })
 
 })
