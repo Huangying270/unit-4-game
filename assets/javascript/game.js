@@ -15,6 +15,11 @@ $(document).ready(function(){
     var green = Math.floor(Math.random() * 12 + 1);
     console.log(red);
 
+    function winner() {
+        alert("You win!");
+        wins++;
+        $("#wins").text(win);
+    }
 
 })
 // 4 crystal variables
