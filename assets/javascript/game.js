@@ -9,17 +9,16 @@ $(document).ready(function(){
     var wins = 0;
     var losses = 0;
 
-    var red = Math.floor(Math.random() * 12 + 1);
-    var blue = Math.floor(Math.random() * 12 + 1);
-    var purple = Math.floor(Math.random() * 12 + 1);
-    var green = Math.floor(Math.random() * 12 + 1);
-    console.log(red);
+    var redNumber = Math.floor(Math.random() * 12 + 1);
+    var blueNumber = Math.floor(Math.random() * 12 + 1);
+    var purpleNumber = Math.floor(Math.random() * 12 + 1);
+    var greenNumber = Math.floor(Math.random() * 12 + 1);
+    console.log(redNumber);
 
-    function winner() {
-        alert("You win!");
-        wins++;
-        $("#wins").text(win);
-    }
+    $(".red").on("click", function(){
+        yourScore = yourScore + redNumber;
+        console.log(yourScore);
+    })
 
 })
 // 4 crystal variables
