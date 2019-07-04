@@ -35,18 +35,48 @@ $(document).ready(function(){
         yourScore = yourScore + blueNumber;
         console.log(yourScore);
         $("#crystalScore").text(yourScore);
+
+        if (yourScore == Random) {
+            alert("You Win!");
+            wins++;
+            $("#wins").text(wins);
+        } else if (yourScore > Random) {
+            alert("You Lose!");
+            losses++;
+            $("#losses").text(losses);
+        }
     })
 
     $(".purple").on("click", function(){
         yourScore = yourScore + purpleNumber;
         console.log(yourScore);
         $("#crystalScore").text(yourScore);
+
+        if (yourScore == Random) {
+            alert("You Win!");
+            wins++;
+            $("#wins").text(wins);
+        } else if (yourScore > Random) {
+            alert("You Lose!");
+            losses++;
+            $("#losses").text(losses);
+        }
     })
 
     $(".green").on("click", function(){
         yourScore = yourScore + greenNumber;
         console.log(yourScore);
         $("#crystalScore").text(yourScore);
+
+        if (yourScore == Random) {
+            alert("You Win!");
+            wins++;
+            $("#wins").text(wins);
+        } else if (yourScore > Random) {
+            alert("You Lose!");
+            losses++;
+            $("#losses").text(losses);
+        }
     })
 
 })
