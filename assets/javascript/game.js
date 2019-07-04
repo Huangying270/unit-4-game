@@ -21,6 +21,24 @@ $(document).ready(function(){
         $("#crystalScore").text(yourScore);
     })
 
+    $(".blue").on("click", function(){
+        yourScore = yourScore + blueNumber;
+        console.log(yourScore);
+        $("#crystalScore").text(yourScore);
+    })
+
+    $(".purple").on("click", function(){
+        yourScore = yourScore + purpleNumber;
+        console.log(yourScore);
+        $("#crystalScore").text(yourScore);
+    })
+
+    $(".green").on("click", function(){
+        yourScore = yourScore + greenNumber;
+        console.log(yourScore);
+        $("#crystalScore").text(yourScore);
+    })
+
 })
 // 4 crystal variables
 // each crystal will generate a random number between 1-12
