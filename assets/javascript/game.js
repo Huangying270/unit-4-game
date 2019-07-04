@@ -1,3 +1,9 @@
+$(document).ready(function(){
+
+    
+
+
+})
 // 4 crystal variables
 // each crystal will generate a random number between 1-12
 // random number will be shown between 19-120 at the start of the game

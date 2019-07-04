@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector Game</title>
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--   <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-    <h1>Crystal Collector</h1>
-    </div>
 
-    <div class="container">
-        <h2>Description</h2>
+    <div class="jumbotron">
+        <h1 class="display-4">Crystal Collector</h1>
+        <p class="lead">Instructions</p>
+        <hr class="my-4">
         <p>A random number will be given at the start of the game and four crystals to collect.
             Each crystal is worth a different number of points each round.
-            You will need to collect crystals so your points total the same as the number given, you lose if you go over that number.
-        </p>
+            You will need to collect crystals so your points total the same as the number given, you lose if you go over
+            that number.</p>
     </div>
 
     <script src="assets/javascript/game.js"></script>
-    
+
 </body>
+
 </html>
